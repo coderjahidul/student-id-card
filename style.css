@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.card {
+    display: flex;
+}
+.second-box,
+.first-box {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+    padding: 10px;
+    
+    
+}
+.font-box {
+    margin-right: 10px;
+}
+.second-box {
+    margin-left: 10px;
+}
+
+.font-card,
+.back-card {
+    width: 250px;
+    text-align: center;
+    height: 400px;
+    
+}
+.font-header {
+    background-color: #0897f6;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.font-header h3 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.font-card .images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding-top: 14px;
+}
+
+.font-card .images h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.font-card .images p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.font-card .info {
+    margin-top: 20px;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.font-card .info strong {
+    font-size: 16px;
+}
+
+.font-card .info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.font-footer {
+    background-color: #0897f6;
+    color: #fff;
+    text-align: center;
+    padding: 5px 40px;
+}
+.font-footer h4 {
+    margin: 0px;
+    font-size: 12px;
+    display: block;
+}
+.font-footer p {
+    margin: 0px;
+    font-size: 12px;
+}
+.back-card .info {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.back-card .images img {
+    width: 150px;
+    height: 150px;
+}
